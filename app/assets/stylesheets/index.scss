@@ -1,0 +1,37 @@
+$bdc-main-blue: #304A96;
+// #0A38DB;
+$bdc-main-grey: #808080;
+$bdc-dark-grey-accent: #4D4D4D;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  background: $bdc-main-blue;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.homepage-container-container {
+  border: 20px solid $bdc-main-blue;
+  top: 0; left: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.homepage-container {
+  top: 0; left: 0;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  position: absolute;
+  background: white;
+  border: 20px solid $bdc-main-blue;
+  border-radius: 80px;
+}
+
+.col-sm-4 {
+  height: 100px;
+}
