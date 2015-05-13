@@ -13,11 +13,13 @@ html, body {
   background: $bdc-main-blue;
   font-family: "Arial Black", Gadget, sans-serif;
 }
+
 .homepage-container-container {
   border: 20px solid $bdc-main-blue;
   top: 0; left: 0;
   width: 100%;
   height: auto;
+  min-height: 100%;
   position: absolute;
 }
 
@@ -34,4 +36,16 @@ html, body {
 
 .col-sm-4 {
   height: 100px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h3 { font-size: 16px; }
+  p { font-size: 12px; }
+  .homepage-container-container { border-width: 10px; }
+  .homepage-container {
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 20px;
+  }
 }
